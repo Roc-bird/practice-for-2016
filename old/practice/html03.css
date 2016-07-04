@@ -1,0 +1,19 @@
+div {
+	width: 50px;
+	height: 100px;
+	background-color: green;
+}
+.car {
+	-webkit-animation: drive 2s ease-in infinite;
+	-o-animation: drive 2s ease-in infinite;
+	animation: drive 2s ease-in infinite;
+}
+
+@keyframes drive {
+	0% {
+		transform:translateX(0);
+	}
+	100% {
+		transform:translateX(400px);
+	}
+}

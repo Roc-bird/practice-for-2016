@@ -1,0 +1,334 @@
+.container {
+	position: relative;
+	margin: 0 auto;
+	max-width: 1800px;
+	min-width: 1190px;
+	max-height: 1500px;
+	background: #f5f5f5;
+	text-align: center;
+}
+
+.fntClor {
+	color: #f31d45;
+}
+.hidv {
+	visibility: hidden;
+}
+.hido {
+	opacity: 0;
+}
+
+.topNav {
+	width: 1190px;
+	height: 30px;
+	border-top: 1px solid #e6e6e6;
+	border-bottom: 1px solid #e6e6e6;
+	margin: 0 auto;
+}
+
+.topNav .loginMsg{
+	float: left;
+}
+
+.topNav .accountMsg {
+	float: right;
+}
+
+.topNav .loginMsg li a {
+	padding: 0 10px;
+}
+
+.topNav .loginMsg li:first-child a {
+	padding-left: 18px;
+	background: url('./qietu/top_collect13x12.png') no-repeat 0px 3px;
+}
+
+.topNav li {
+	float: left;
+	line-height: 30px;
+}
+
+.topNav .accountMsg li {
+	background: url("./qietu/top_line.png") no-repeat left 58% ;
+}
+
+.topNav .accountMsg li a {
+	display: block;
+	/*height: 30px;*/
+	line-height: 30px;
+	padding: 0 10px;
+}
+
+.topNav .accountMsg .arrowC {
+	padding-right: 19px;
+	background: url("./qietu/top_icon_Arrow9x5.png") no-repeat 90% 55%;
+}
+
+.topNav .accountMsg li:first-child {
+	background: none;
+}
+
+.navMain {
+	background: #1789d5;
+	width: 100%;
+	height: 60px;
+	margin-bottom: 40px;
+}
+.nav {
+	margin: 0 auto;
+	width: 1190px;
+	height: 40px;
+	background: #1789d5;
+	padding: 10px 0;
+	/*padding: 10px 0 10px 305px;*/
+}
+
+.nav .navLog {
+	float: left;
+	margin: 0 30px;
+	width: 213px;
+	height: 40px;
+}
+
+.nav .navLlist {
+	float: left;
+	margin: 0 30px;
+	min-width: 183px;
+	height: 40px;
+}
+
+.nav .navLog li {
+	float: left;
+}
+
+.nav .navList li {
+	float: left;
+}
+
+.nav .navLog li a {
+	display: block;
+	height: 40px;
+}
+
+.nav .navList li a {
+	display: block;
+	height: 40px;
+	font-size: 1.1em;
+	font-weight: 600;
+	color: #fff;
+	line-height: 40px;
+	padding: 0 30px;
+	padding-bottom: 10px;
+}
+
+.nav .navLog li:first-child a {
+	width: 34px;
+	background: url("./qietu/nav_log34x40.png");
+}
+
+.nav .navLog li:last-child a {
+	padding: 0 30px;
+	width: 119px;
+	line-height: 40px;
+	font-size: 2em;
+	font-weight: bold;
+	letter-spacing: 3px;
+	color: #fff;
+}
+
+.nav .navList li:first-child {
+	background: url("./qietu/nav_selectedArrow12x7.png") no-repeat 50% 43px;
+}
+
+.nav .navList .acntManagement {
+	background: url('./qietu/nav_arrow9x5.png') no-repeat 90px 20px;
+}
+
+
+
+.content {
+	max-width: 1190px;
+	min-height: 150px;
+	margin: 0 auto;
+	padding-bottom: 15px;
+}
+
+.leftList {
+	float: left;
+	margin-right: 20px;
+	min-width: 186px;
+}
+
+.leftList .listTop {
+	width: 186px;
+	height: 8px;
+	margin-bottom: -3px;
+	background: url("./qietu/left_list_top186x8.png") no-repeat 0 top;
+}
+
+.leftList .list {
+	margin: 0 auto;
+	width: 180px;
+	min-height: 150px;
+	background: #fff;
+	padding-top: 15px;
+	text-align: left;
+	/*-moz-box-shadow: 2px 2px 5px #f5f5f5;
+	padding-bottom: 19px;
+	-webkit-box-shadow: 2px 2px 5px #f5f5f5;*/
+	box-shadow: 2px 2px 5px #eee;
+}
+.leftList .listBottom {
+	width: 180px;
+	height: 20px;
+	margin-top: 19px;
+	background: url("./qietu/leftlistbottom180x20.png") no-repeat 0 top;
+}
+
+.leftList .list div:first-child {
+	margin-left: 40px;
+	max-width: 150px;
+}
+
+.leftList .list div:first-child h6 {
+	font-weight: bold;
+	font-size: 13px;
+	margin-top: 12px;
+}
+
+.leftList .list div:first-child li {
+	margin-top: 8px;
+	font-size: 12px;
+	padding-left: 1px;
+	/*max-width: 150px;*/
+}
+
+.leftList .list div:first-child a {
+	display: block;
+	padding-left: 25px;
+}
+
+.leftList .list div:first-child .shopCar {
+	background: url("./qietu/left_list_shopCart.png") no-repeat left 50%;
+}
+
+.leftList .list div:first-child .myDeal {
+	background: url("./qietu/left_list_mydeal.png") no-repeat left 50%;
+}
+
+.leftList .list div:first-child .myMoney {
+	background: url("./qietu/left_list_money.png") no-repeat left 50%;
+}
+
+.leftList .list div:first-child .cstmService {
+	background: url("./qietu/left_list_customerService15x12.png") no-repeat left 50%;
+}
+
+
+.rightMain {
+	float: right;
+	width: 984px;
+	min-height: 150px;
+}
+
+.rightMain textarea {
+	vertical-align: top;
+}
+
+.rightMain h6 {
+	/*padding-left: 5px;
+	height: 24px;*/
+	border-bottom: 1px solid #ccc;
+}
+
+.rightMain h6 li {
+	vertical-align: top;
+	margin-right: 20px; 
+}
+
+.rightMain h6 a {
+	display: block;
+	float: left;
+	padding: 0 8px 6px; 
+	margin-bottom: -1px;
+	border-bottom: 2px solid #f31d45;
+}
+
+.rightMain .contR {
+	margin-top: 15px;
+	text-align: left;
+	font-size: 1.15em;
+}
+
+.rightMain .contR form>div {
+	margin-left: 10px;
+	/*max-width: 654px;*/
+}
+
+.rightMain .contR form label {
+	display: inline-block;
+	min-height: 24px;
+}
+
+.rightMain .contR form a {
+	display: inline-block;
+}
+.rightMain .contR form p label:first-child {
+	width: 75px;
+}
+.rightMain .contR form .fx {
+	margin: 10px 0 22px 0;
+}
+.rightMain .contR form .fx label:first-child {
+	text-align: right;
+}
+
+.rightMain .contR .reportType div {
+	float: left;
+	width: 554px;
+}
+.rightMain .contR .reportType label {
+	float: left;
+}
+.rightMain .contR .reportType div label {
+	width: 100%;
+}
+
+.rightMain .contR textarea {
+	width: 577px;
+	height: 179px;
+}
+
+.rightMain .contR .fileUpReport a {
+	position: relative;
+	margin-right: 20px;
+	width: 80px;
+	height: 25px;
+	line-height: 25px;
+	background: #f31d45;
+	text-align: center;
+	color: #fff;
+}
+.rightMain .contR .fileUpReport a input {
+	width: 80px;
+	height: 25px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 10;
+	opacity: 0;
+}
+
+.rightMain .contR form .upImageReport div {
+	float: left;
+}
+
+.rightMain .contR form .subReport {
+	margin-left: 75px;
+	width: 64px;
+	height: 25px;
+	line-height: 25px;
+	background: #f31d45;
+	color: #fff;
+	text-align: center;
+}

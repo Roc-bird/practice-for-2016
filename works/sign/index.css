@@ -1,0 +1,196 @@
+body {
+	background: url("./images/loginBc2.jpg") no-repeat 0 0 ;
+}
+
+.container {
+	position: relative;
+	max-width: 2796px;
+	height: 100%;
+	margin: 0 auto;
+}
+
+.header {
+	height: 150px;
+}
+
+.content {
+	position: relative;
+	width: 1176px;
+	margin: 0 auto;
+	background: #fbfbfb;
+	border-top: 1px solid #fff;
+}
+
+.sign-title {
+	/*width: 215px;*/
+	margin: 15px 30px;
+	border-left: 5px solid #39f;
+}
+
+.sign-title-link {
+	float: right;
+	font-size: 14px;
+}
+
+.sign-title-link a {
+	margin: 0 6px 0 2px;
+	color: #d66;
+}
+
+.sign-box {
+	width: 680px;
+	margin: 0 auto;
+}
+
+.username-box,
+.passwd-box,
+.sub-box {
+	width: 680px;
+	border: 1px solid #ccc;
+	background: rgba(255,255,255,1);
+}
+
+.username-box-title,
+.passwd-box-title {
+	width: 680px;
+	height: 100px;
+	margin: 0 auto;
+	background: rgba(243,243,243,1);
+	text-align: center;
+	font-size: 48px;
+	line-height: 2;
+	letter-spacing: 90px;
+	text-indent: 90px;
+}
+
+.username-box-main,
+.passwd-box-main {
+	width: 580px;
+	height: 128px;
+	margin: 22px auto 0;
+	/*text-align: center;*/
+}
+
+.username-box-cont,
+.passwd-box-cont {
+	width: 538px;
+	height: 86px;
+	padding: 0 20px;
+	border: 1px solid #bbb;
+	box-shadow: 1px 1px 5px #eee inset;
+	background: rgba(253,253,253,1);
+	font-size: 32px;
+	letter-spacing: 2px;
+}
+
+.error-tips {
+	height: 40px;
+	margin: 0;
+	font-size: 16px;
+	line-height: 2.5;
+	color: rgba(255,51,51,1);
+}
+
+.sub-box {
+	height: 100px;
+}
+
+.sub-main {
+	width: 580px;
+	height: 100px;
+	margin: 0 auto;
+}
+
+.sign-in-btn,
+.sign-up-next {
+	width: 400px;
+	height: 100px;
+	border: 1px solid #bbb;
+	box-shadow: -2px -2px 8px #666 inset;
+	outline: 0;
+	font-size: 36px;
+	letter-spacing: 50px;
+	text-indent: 50px;
+	background: rgba(0,113,188,0.7);
+}
+
+.sign-in-btn:active,
+.sign-up-next:active {
+	background: rgba(225,225,225,1);
+}
+
+.sign-up-next a {
+	color: rgb(0,0,0);
+	text-decoration: none;
+}
+
+.sub-toggle {
+	float: right;
+}
+
+.toggle-bton {
+	position: relative;
+	width: 148px;
+	height: 45px;
+	margin-top: 15px;
+}
+
+.toggle-bton-circle {
+	position: absolute;
+	top: 1px;
+	left: 100px;
+	z-index: 100;
+	width: 45px;
+	height: 45px;
+	border: 1px solid #ccc;
+	border-radius: 22.5px;
+	background: #fff;
+}
+
+
+/* 按钮切换动画 */
+.toggle-animation {
+	animation-name: sub-toggle;
+	animation-duration: 1.6s;
+	animation-timing-function: linear;
+	animation-delay: 0.5s;
+	/*animation-iteration-count: infinite;*/
+	animation-direction: alternate;
+	animation-play-state: running;
+}
+
+@keyframes sub-toggle {
+	0%   {left:0px;}
+	25%  {left:20px;}
+	50%  {left:60px;}
+	75%  {left:100px;}
+	100% {left:0px;}
+	/*from {left: 0px;}
+	to {left: 100px;}*/
+}
+
+.toggle-bton-ellipses {
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 1;
+	width: 145px;
+	height: 45px;
+	border: 1px solid #ccc;
+	border-radius: 22.5px;
+	background: #fff;
+}
+
+.toggle-in-tips,
+.toggle-up-tips {
+	display: block;
+	text-align: center;
+	font-size: 16px;
+	line-height: 2.5;
+}
+
+
+/* 不显示通用样式 */
+.dis-none {
+	display: none;
+}

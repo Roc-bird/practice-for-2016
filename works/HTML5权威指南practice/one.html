@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="one.css">
+	<title>Document</title>
+	<script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.8.0.js"></script>
+</head>
+<body>
+	<div>
+		<table>
+			<caption>Results of the 2011 Fruit Survey</caption>
+			<colgroup id="colgroup1">
+				<col id="col1And2" span="2" />
+				<col id="col3" />
+			</colgroup>
+			<colgroup id="colgroup2" span="2" />
+			<thead>
+				<tr>
+					<th>Rank</th>
+					<th>Name</th>
+					<th>Color</th>
+					<th colspan="2">Size & Votes</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<th>Favorite</th><td>Apples</td><td>Green</td>
+					<td>Medium</td><td>500</td>
+				</tr>
+				<tr>
+					<th>2nd Favorite</th><td>Oranges</td>
+					<td>Orange</td>
+					<td>Large</td>
+					<td>450</td>
+				</tr>
+				<tr>
+					<th>3rd Favorite</th><td>Pomegranate</td>
+					<td colspan="2" rowspan="2">Pomegranates and cherries can both come in a range of colors and sizes</td>
+					<td>203</td>
+				</tr>
+				<tr>
+					<th rowspan="2">Joint 4th:</th>
+					<td>Cherries</td>
+					<td rowspan="2">75</td>
+				</tr>
+				<tr>
+					<td>Pineapple</td>
+					<td>Brown</td>
+					<td>Very Large</td>
+				</tr>
+			</tbody>
+			<tfoot>
+				<tr>
+					<th colspan="5"> &copy; 2011Adam Freeman Fruit Data Enterprises</th>
+				</tr>
+			</tfoot>
+		</table>
+	</div>
+	<div class="testImg"><a href="javascript:void(0);"><img src="m.jpg" alt=""></a></div>
+	<div class="test">
+		<ul>
+			<li>a</li>
+			<li>b</li>
+			<li>c</li>
+			<li><span>d</span></li>
+			<li>e</li>
+			<li>f</li>
+			<li>g</li>
+		</ul>
+		<a href="javascript:void(0);">更多</a>
+	</div>
+</body>
+<script type="text/javascript">
+	/*$("a").toggle(function() {
+			$(this).html("收起");
+			for ( var i=4; i < $("li").length; i++){
+				$("li").eq(i).show();
+			}
+	},function(){
+			$(this).html("更多");
+			for ( var i=$("li").length-1; i >4 ; i--){
+				$("li").eq(i).hide();
+			}
+	});*/
+	/*$("a").click(function() {
+		if ($("a:contains('更多')")[0]) {
+			$(this).html("收起");
+			for ( var i=4; i < $("li").length; i++){
+				$("li").eq(i).show();
+			}
+		} else if ($("a:contains('收起')")[0]) {
+			$(this).html("更多");
+			for ( var i=$("li").length-1; i >4 ; i--){
+				$("li").eq(i).hide();
+			}
+		}
+	});*/
+	(function($){
+        $.fn.extend({
+            "focusB": function(obj){
+            	//console.log($(this).find("li").each(function(){console.log(1)}));
+            	var dec = "#ccc";
+            	//obj = (obj == undefined)?dec:obj;
+                $(this).find("li").each(function(index){
+                	//if (index == 0) {
+                		//if ($(this).mouseover){(console.log($(this).mouseover));}
+                	//}
+                   $(this).mouseover(function(){
+                    	$(this).css("background-color", obj);
+                    }).mouseout(function(){
+                    	$(this).removeAttr("style");
+                    });
+                });
+                return $(this);
+            }
+        });
+    })(jQuery);
+    $(function(){$("ul").focusB("#669966");})
+</script>
+</html>

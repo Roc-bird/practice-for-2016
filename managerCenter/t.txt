@@ -1,0 +1,6 @@
+#1789d5;  nav and sure
+#f31d45;  font and button
+#f5f5f5;  background
+#f7f7f7;  th
+#e6e6e6;  border
+#6dacd6;  search

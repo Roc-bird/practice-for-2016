@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<note>
+	<address>
+		<province id="zj">
+			<name>浙江省</name>
+			<city>
+				<name>杭州市</name>
+				<area>
+					<name>萧山区</name>
+					<street>北干街道</street>
+					<street>城厢</street>
+					<street>新塘</street>
+				</area>
+				<area>
+					<name>滨江区</name>
+					<street>长河街</street>
+					<street>浦沿街</street>
+					<street>西兴街</street>
+				</area>
+			</city>
+			<city>
+				<name>宁波市</name>
+				<area>
+					<name>江东区</name>
+					<street>东胜街</street>
+					<street>东郊街</street>
+					<street>白鹤街</street>
+					<street>百仗街</street>
+				</area>
+				<area>
+					<name>江北区</name>
+					<street>中马街</street>
+					<street>白沙街</street>
+					<street>孔浦街</street>
+				</area>
+			</city>
+		</province>
+		<province id="sh">
+			<name>上海市</name>
+			<city>
+				<name>上海市</name>
+				<area>
+					<name>徐汇区</name>
+					<street>漕河泾</street>
+					<street>田林</street>
+					<street>龙华</street>
+				</area>
+			</city>
+		</province>
+
+	</address>
+</note>

@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>resgister</title><!-- -->
+	<link rel="stylesheet" href="html06.css"/>  <!-- csssheet -->
+	<link rel = "Shortcut Icon" href="favicon.ico">
+</head>
+<body>
+	<div >
+		<form action="#" method="get">
+			<p>用户名：<input type="text" name="username" id="username" placeholder="请输入3~16位英文/数字/_" /><span></span></p>
+			<p>密&nbsp;&nbsp;&nbsp;码：<input type="password" name="passwd" id="passwd" placeholder="点击输入密码" /><span></span></p>
+			<p>填写日期：
+				<!--<select name="timset" id="timeset">
+					<option value="年" id="slct">年</option>
+				</select>-->
+				<input type="text" class="slct" size="3" placeholder="年" /><td>&nbsp;年</td>
+				<input type="text" class="slct" size="1" placeholder="月" /><td>&nbsp;月</td>
+				<input type="text" class="slct" size="1" placeholder="日" /><td>&nbsp;日</td><span></span>
+				<!--<div id="fslec"><button class="add">&lt;</button><input type="text" value="2015" size="3" /><button class="ded">&gt;</button></div>--><!--隐藏DIV-->
+				<div id="time_table">
+					<h4><button type="button" title="前一年">&lt;&lt;</button><button type="button" title="上个月">&lt;</button>
+					<!--<input type="text" size="3" />
+					<input type="text" size="1" />-->
+					<span></span>
+					<span>.</span>
+					<span></span>
+					<button type="button" title="下个月">&gt;</button><button type="button" title="后一年">&gt;&gt;</button></h4>
+					<table>
+						<tr>
+							<th>日</th>
+							<th>一</th>
+							<th>二</th>
+							<th>三</th>
+							<th>四</th>
+							<th>五</th>
+							<th>六</th>
+						</tr>
+						<tr>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+						</tr>
+						<tr>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+						</tr>
+						<tr>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+						</tr>
+						<tr>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+						</tr>
+						<tr>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+						</tr>
+						<tr>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+						</tr>
+					</table>
+					<button type="button" title="" >确定</button><button type="button" title="" >今天</button>
+				</div>
+			</p>
+			<p><button type="submit" >下一步</button></p>
+		</form>
+	</div>
+<script src="html06.js"></script> <!-- jssheet-->
+</body>
+</html>

@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="initialization.css">
+	<link rel="stylesheet" href="manager_complaint.css">
+	<script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.8.0.js"></script>
+	<title>投诉管理</title>
+</head>
+<body>
+	<div class="container clearfix">
+		<div class="topNav clearfix">
+			<div class="loginMsg">
+				<ul>
+					<li><a href="javascript:;">收藏工联海淘</a></li>
+					<li><a class="fntClor" href="javascript:;">您好，ht2154415441</a></li>
+					<li><a href="javascript:;">退出</a></li>
+				</ul>
+			</div>
+			<div class="accountMsg clearfix">
+				<ul>
+					<li><a href="javascript:;">商家入驻</a></li>
+					<li><a class="fntClor arrowC" href="javascript:;">我的订单</a></li>
+					<li><a class="arrowC" href="javascript:;">我的海淘</a></li>
+					<li><a href="javascript:;">购物车</a></li>
+					<li><a class="arrowC" href="javascript:;">手机版</a></li>
+					<li><a class="arrowC" href="javascript:;">帮助中心</a></li>
+				</ul>
+			</div>
+		</div>
+		<div class="navMain clearfix">
+		<div class="nav clearfix">
+				<div class="navLog clearfix">
+					<ul>
+						<li><a href="javascript:;"></a></li>
+						<li><a href="javascript:;">我的海淘</a></li>
+					</ul>
+				</div>
+				<div class="navList clearfix">
+					<ul>
+						<li><a href="javascript:;">首页</a></li>
+						<li><a class="acntManagement" href="javascript:;">账户管理<span></span></a></li>
+						<li><a href="javascript:;">消息</a></li>
+					</ul>
+				</div>
+		</div>
+		</div>
+		<div class="content clearfix">
+			<div class="leftList clearfix">
+				<p class="listTop"></p>
+				<div class="list">
+					<div class="clearfix">
+						<h6><a class="shopCar" href="javascript:;">我的购物车</a></h6>
+						<h6><a class="myDeal" href="javascript:;">我的交易</a></h6>
+						<ul>
+							<li><a name="orderM" href="javascript:;">订单管理</a></li>
+							<li><a name="collectionM" href="javascript:;">我的收藏</a></li>
+							<li><a name="reviewsM" href="javascript:;">评价管理</a></li>
+						</ul>
+						<h6><a class="myMoney" href="javascript:;">我的资产</a></h6>
+						<ul>
+							<li><a name="balanceM" href="javascript:;">账户余额</a></li>
+							<li><a name="rechargeM" href="javascript:;">余额充值</a></li>
+							<li><a name="accountDetailM" href="javascript:;">账务明细</a></li>
+							<li><a name="discountM" href="javascript:;">我的优惠</a></li>
+						</ul>
+						<h6><a class="cstmService" href="javascript:;">客户服务</a></h6>
+						<ul>
+							<li><a name="reportM" href="javascript:;">举报管理</a></li>
+							<li><a name="complaintM" href="javascript:;">投诉管理</a></li>
+							<li><a name="consultReplyM" href="javascript:;">咨询回复</a></li>
+						</ul>
+					</div>
+					<p class="listBottom"></p>
+				</div>
+			</div>
+			<div class="rightMain clearfix">
+				<h6 class="clearfix"><li><a href="javascript:void(0);">我发出的投诉</a><a href="javascript:;">我收到的投诉</a></li></h6>
+				<div class="contR">
+					<form class="complaintSch" action="javascript:;" method="post" onsubmit="return false">
+						<div>
+							<p>
+								<span>订单编号：<input type="text"></span>
+								<span>投诉编号：<input type="text"></span>
+								<span>投诉状态：<select name="" id="">
+										<option value="full">全部</option>
+										<option value="doing">投诉处理中</option>
+									</select>
+								</span>
+							</p>
+							<p>
+								<span>投诉时间：<input type="text">至<input type="text"></span>
+							</p>
+						</div>
+						<button type="submit">搜索</button>
+					</form>
+					<div class="queryResult">
+						<table>
+							<tbody>
+								<tr>
+									<th class="t1">举报编号</th>
+									<th class="t2">订单编号</th>
+									<th class="t3">投诉原因</th>
+									<th class="t4">投诉状态</th>
+									<th class="t5">申请时间</th>
+									<th class="t6">操作</th>
+								</tr>
+								<tr>
+									<td class="t1">1222</td>
+									<td class="t2">20151228090535794957</td>
+									<td class="t3">违背诺言</td>
+									<td class="t4">投诉不成立</td>
+									<td class="t5">
+										<li>2016-01-11</li>
+										<li>14:21:29</li>
+									</td>
+									<td class="t6"><a href="javascript:;">详情</a></td>
+								</tr>
+								<tr>
+									<td class="t1">1222</td>
+									<td class="t2">20151228090535794957</td>
+									<td class="t3">违背诺言</td>
+									<td class="t4">投诉不成立</td>
+									<td class="t5">
+										<li>2016-01-11</li>
+										<li>14:21:29</li>
+									</td>
+									<td class="t6"><a href="javascript:;">详情</a></td>
+								</tr>
+								<tr>
+									<td class="t1">1222</td>
+									<td class="t2">20151228090535794957</td>
+									<td class="t3">违背诺言</td>
+									<td class="t4">投诉不成立</td>
+									<td class="t5">
+										<li>2016-01-11</li>
+										<li>14:21:29</li>
+									</td>
+									<td class="t6"><a href="javascript:;">详情</a></td>
+								</tr>
+								<tr>
+									<td class="t1">1222</td>
+									<td class="t2">20151228090535794957</td>
+									<td class="t3">违背诺言</td>
+									<td class="t4">投诉不成立</td>
+									<td class="t5">
+										<li>2016-01-11</li>
+										<li>14:21:29</li>
+									</td>
+									<td class="t6"><a href="javascript:;">详情</a></td>
+								</tr>
+								<tr>
+									<td class="t1">1222</td>
+									<td class="t2">20151228090535794957</td>
+									<td class="t3">违背诺言</td>
+									<td class="t4">投诉不成立</td>
+									<td class="t5">
+										<li>2016-01-11</li>
+										<li>14:21:29</li>
+									</td>
+									<td class="t6"><a href="javascript:;">详情</a></td>
+								</tr>
+								<tr>
+									<td class="t1">1222</td>
+									<td class="t2">20151228090535794957</td>
+									<td class="t3">违背诺言</td>
+									<td class="t4">投诉不成立</td>
+									<td class="t5">
+										<li>2016-01-11</li>
+										<li>14:21:29</li>
+									</td>
+									<td class="t6"><a href="javascript:;">详情</a></td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+					<div class="footNum">
+						<div class="fPage">
+							<li class="fChangeS">
+								<a href="javascript:;">首页</a>
+								<a href="javascript:;">上一页</a>
+							</li>
+							<li class="fChangeN">
+								<a href="javascript:;">1</a>
+								<a href="javascript:;">2</a>
+								<a href="javascript:;">3</a>
+								<span>...</span>
+							</li>
+							<li class="fChangeM">
+								<a href="javascript:;">下一页</a>
+								<a href="javascript:;">末页</a>
+								共<span>18</span>页，到第
+							</li>
+							<li class="fSub">
+								<form action="javascript:;" method="get" onsubmit="return false">
+									<input type="text" value="1" />&nbsp;页
+									<a href="javascript:;">确定</a>
+								</form>
+							</li>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script src="manager_complaint.js"></script>
+	<script src="manager_share.js"></script>
+</body>
+</html>

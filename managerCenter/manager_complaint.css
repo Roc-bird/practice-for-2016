@@ -1,0 +1,416 @@
+.container {
+	position: relative;
+	margin: 0 auto;
+	max-width: 1800px;
+	min-width: 1190px;
+	max-height: 1500px;
+	background: #f5f5f5;
+	text-align: center;
+}
+
+.fntClor {
+	color: #f31d45;
+}
+
+.topNav {
+	width: 1190px;
+	height: 30px;
+	border-top: 1px solid #e6e6e6;
+	border-bottom: 1px solid #e6e6e6;
+	margin: 0 auto;
+}
+
+.topNav .loginMsg{
+	float: left;
+}
+
+.topNav .accountMsg {
+	float: right;
+}
+
+.topNav .loginMsg li a {
+	padding: 0 10px;
+}
+
+.topNav .loginMsg li:first-child a {
+	padding-left: 18px;
+	background: url('./qietu/top_collect13x12.png') no-repeat 0px 3px;
+}
+
+.topNav li {
+	float: left;
+	line-height: 30px;
+}
+
+.topNav .accountMsg li {
+	background: url("./qietu/top_line.png") no-repeat left 58% ;
+}
+
+.topNav .accountMsg li a {
+	display: block;
+	/*height: 30px;*/
+	line-height: 30px;
+	padding: 0 10px;
+}
+
+.topNav .accountMsg .arrowC {
+	padding-right: 19px;
+	background: url("./qietu/top_icon_Arrow9x5.png") no-repeat 90% 55%;
+}
+
+.topNav .accountMsg li:first-child {
+	background: none;
+}
+
+.navMain {
+	background: #1789d5;
+	width: 100%;
+	height: 60px;
+	margin-bottom: 40px;
+}
+.nav {
+	margin: 0 auto;
+	width: 1190px;
+	height: 40px;
+	background: #1789d5;
+	padding: 10px 0;
+	/*padding: 10px 0 10px 305px;*/
+}
+
+.nav .navLog {
+	float: left;
+	margin: 0 30px;
+	width: 213px;
+	height: 40px;
+}
+
+.nav .navLlist {
+	float: left;
+	margin: 0 30px;
+	min-width: 183px;
+	height: 40px;
+}
+
+.nav .navLog li {
+	float: left;
+}
+
+.nav .navList li {
+	float: left;
+}
+
+.nav .navLog li a {
+	display: block;
+	height: 40px;
+}
+
+.nav .navList li a {
+	display: block;
+	height: 40px;
+	font-size: 1.1em;
+	font-weight: 600;
+	color: #fff;
+	line-height: 40px;
+	padding: 0 30px;
+	padding-bottom: 10px;
+}
+
+.nav .navLog li:first-child a {
+	width: 34px;
+	background: url("./qietu/nav_log34x40.png");
+}
+
+.nav .navLog li:last-child a {
+	padding: 0 30px;
+	width: 119px;
+	line-height: 40px;
+	font-size: 2em;
+	font-weight: bold;
+	letter-spacing: 3px;
+	color: #fff;
+}
+
+.nav .navList li:first-child {
+	background: url("./qietu/nav_selectedArrow12x7.png") no-repeat 50% 43px;
+}
+
+.nav .navList .acntManagement {
+	background: url('./qietu/nav_arrow9x5.png') no-repeat 90px 20px;
+}
+
+
+
+.content {
+	max-width: 1190px;
+	min-height: 150px;
+	margin: 0 auto;
+	padding-bottom: 15px;
+}
+
+.leftList {
+	float: left;
+	margin-right: 20px;
+	min-width: 186px;
+}
+
+.leftList .listTop {
+	width: 186px;
+	height: 8px;
+	margin-bottom: -3px;
+	background: url("./qietu/left_list_top186x8.png") no-repeat 0 top;
+}
+
+.leftList .list {
+	margin: 0 auto;
+	width: 180px;
+	min-height: 150px;
+	background: #fff;
+	padding-top: 15px;
+	text-align: left;
+	/*-moz-box-shadow: 2px 2px 5px #f5f5f5;
+	padding-bottom: 19px;
+	-webkit-box-shadow: 2px 2px 5px #f5f5f5;*/
+	box-shadow: 2px 2px 5px #eee;
+}
+.leftList .listBottom {
+	width: 180px;
+	height: 20px;
+	margin-top: 19px;
+	background: url("./qietu/leftlistbottom180x20.png") no-repeat 0 top;
+}
+
+.leftList .list div:first-child {
+	margin-left: 40px;
+	max-width: 150px;
+}
+
+.leftList .list div:first-child h6 {
+	font-weight: bold;
+	font-size: 13px;
+	margin-top: 12px;
+}
+
+.leftList .list div:first-child li {
+	margin-top: 8px;
+	font-size: 12px;
+	padding-left: 1px;
+	/*max-width: 150px;*/
+}
+
+.leftList .list div:first-child a {
+	display: block;
+	padding-left: 25px;
+}
+
+.leftList .list div:first-child .shopCar {
+	background: url("./qietu/left_list_shopCart.png") no-repeat left 50%;
+}
+
+.leftList .list div:first-child .myDeal {
+	background: url("./qietu/left_list_mydeal.png") no-repeat left 50%;
+}
+
+.leftList .list div:first-child .myMoney {
+	background: url("./qietu/left_list_money.png") no-repeat left 50%;
+}
+
+.leftList .list div:first-child .cstmService {
+	background: url("./qietu/left_list_customerService15x12.png") no-repeat left 50%;
+}
+
+
+
+.rightMain {
+	float: right;
+	width: 984px;
+	min-height: 150px;
+}
+
+.rightMain h6 {
+	/*padding-left: 5px;
+	height: 24px;*/
+	border-bottom: 1px solid #ccc;
+}
+
+.rightMain h6 li {
+	vertical-align: top;
+	margin-right: 20px; 
+}
+
+.rightMain h6 a {
+	display: block;
+	float: left;
+	padding: 0 8px 6px; 
+	margin-bottom: -1px;
+}
+
+.rightMain h6 a:first-child {
+	border-bottom: 2px solid #f31d45;
+}
+
+.rightMain .complaintSch {
+	margin: 10px 0 20px;
+	width: 981px;
+	height: 111px;
+	border: 1px solid #e6e6e6;
+	background: #fff;
+	padding-top: 20px;
+	text-align: left;
+}
+
+.rightMain .complaintSch button {
+	margin-left: 100px;
+	cursor: pointer;
+/*}
+.rightMain .complaintSch button a{
+	display: block;*/
+	width: 50px;
+	height: 25px;
+	/*line-height: 25px;*/
+	background: #f31d45;
+	color: #fff;
+	/*border: 1px solid #f31d45;*/
+}
+.rightMain .complaintSch button:active {
+	background: #f00;
+}
+
+.rightMain .complaintSch p {
+	margin-bottom: 15px; 
+	width: 950px;
+	height: 22px;
+	text-align: left;
+	line-height: 22px;
+	padding-left: 30px;
+}
+
+.rightMain .complaintSch p:first-child input {
+	margin-left: 5px;
+	margin-right: 20px;
+	width: 128px;
+	height: 20px;
+	border: 1px solid #999;
+	/*line-height: 20px;*/
+}
+
+.rightMain .complaintSch p:first-child select {
+	width: 108px;
+	height: 22px;
+	border: 1px solid #999;
+}
+
+.rightMain .complaintSch p:last-child input {
+	margin: 0 5px;
+	width: 78px;
+	height: 20px;
+	border: 1px solid #999;
+}
+
+.rightMain .queryResult table {
+	width: 981px;
+	height: 522px;
+	border: 1px solid #e6e6e6;
+}
+
+.rightMain .queryResult table tr {
+	width: 100%;
+	height: 80px;
+	border-bottom: 1px solid #e6e6e6;
+	background: #fff;
+}
+
+.rightMain .queryResult table tr:first-child {
+	height: 39px;
+	background: #f7f7f7;
+}
+
+.rightMain .queryResult table tr:last-child {
+	border-bottom: none;
+}
+
+.rightMain .queryResult table td:last-child a{
+	color: #f31d45;
+}
+
+.rightMain .queryResult table .t1 {
+	width: 154px;
+	text-align: center;
+}
+.rightMain .queryResult table .t2 {
+	width: 180px;
+	text-align: center;
+}
+
+.rightMain .queryResult table .t3 {
+	width: 152px;
+	text-align: center;
+}
+
+.rightMain .queryResult table .t4 {
+	width: 180px;
+	text-align: center;
+}
+
+.rightMain .queryResult table .t5 {
+	width: 152px;
+	text-align: center;
+}
+
+.rightMain .queryResult table .t6 {
+	width: 148px;
+	padding-left: 16px;
+}
+
+.rightMain .footNum {
+	margin-top: 20px;
+	width: 100%;
+	height: 24px;
+}
+
+.rightMain .footNum .fPage {
+	float: right;
+}
+
+.rightMain .footNum .fPage li{
+	float: left;
+	padding: 0 3px;
+}
+
+.rightMain .footNum .fPage a {
+	display: inline-block;
+	margin-left: 3px;
+	border: 1px solid #e6e6e6;
+	background: #fff;
+	padding: 3px 9px 3px;
+}
+
+/*.rightMain .footNum .fPage button a {
+	display: block;
+}*/
+
+.rightMain .footNum .fPage input {
+	/*margin: 0 2px 1px;*/
+	width: 54px;
+	height: 22px;
+	border: 1px solid #e6e6e6;
+	text-align: center;
+}
+
+.rightMain .footNum .fPage .fChangeN a:first-child {
+	background: #1789d5;
+	color: #fff;
+}
+
+.rightMain .footNum .fPage .fSub a {
+	background: #1789d5;
+	color: #fff;
+}
+
+.rightMain .footNum .fPage .fChangeS a:active {
+	background: #1776b6;
+	color: #fff;
+}
+.rightMain .footNum .fPage .fChangeM a:active {
+	background: #1776b6;
+	color: #fff;
+}

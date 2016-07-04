@@ -1,0 +1,13 @@
+$(document).ready(function(){
+	$("#equipmentp").bind("tap",function(){
+		//$.mobile.loadPage("equipment.html");
+		$.mobile.changePage("#equipment");
+	});
+	//console.log($("grid"));
+	$(".home").bind("tap",function(){
+		$.mobile.changePage("#pageone");
+	});
+	$(".grid").bind("tap",function(){
+		$.mobile.changePage("#pagetwo");
+	});
+});

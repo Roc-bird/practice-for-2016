@@ -1,0 +1,43 @@
+thead th,tfoot th {text-align: left; background: grey; color: white;}
+tbody th { text-align: right; background: lightgrey; color: grey }
+[colspan], [rowspan] {font-weight: bold; border: medium solid black;}
+thead [colspan], tfoot [colspan] {text-align: center;}
+caption {
+	font-weight: bold;
+	font-size: large;
+	margin-bottom: 5px;
+}
+#colgroup1 {
+	background-color: red;
+}
+#col1And2 {
+	background-color: pink;
+}
+#col3 {
+	background-color: green;
+	font-size: small;
+}
+#colgroup2 {
+	background-color: blue;
+}
+
+.testImg {
+	margin: 0 500px;
+}
+
+.testImg img {
+	transition: all .8s;
+	max-width: 270px;
+	max-height: 270px;
+}
+
+.testImg img:hover {
+	transform: translate(10px);
+}
+
+div li:nth-child(3) ~ spans {
+	background-color: red;
+}
+div li:nth-child(5) ~ li {
+	display: none;
+}

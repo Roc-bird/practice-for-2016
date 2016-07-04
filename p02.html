@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>jquery01</title>
+	<script src="http://ajax.microsoft.com/ajax/jquery/jquery-1.4.min.js"></script>
+	<script>$(document).ready(function(){
+		$("button").click(function(){
+			//$(this).hide();});
+			console.log($(this).text());
+			$(this).text("ready?");
+			$(this).html("<b>rea</b>dy?");
+			$(this).html(function(i,origText){
+				return "go";
+			});
+		});
+	})
+	</script>
+</head>
+<body>
+	<button type="button">click me</button>
+</body>
+</html>

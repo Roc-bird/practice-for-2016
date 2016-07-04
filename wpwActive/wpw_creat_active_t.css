@@ -1,0 +1,386 @@
+.container {
+	position: relative;
+	margin: 0 auto;
+	max-width: 1800px;
+	min-width: 980px;
+	max-height: 1500px;
+	background: #fff;
+	text-align: center;
+}
+
+.fntClor {
+	color: #f31d45;
+}
+
+.topNavBc {
+	max-width: 100%;
+	height: 25px;
+	background: #f5f5f5;
+}
+
+.topNav {
+	width: 980px;
+	height: 25px;
+	border-bottom: 1px solid #e6e6e6;
+	margin: 0 auto;
+}
+
+.topNav .loginMsg{
+	float: left;
+}
+
+.topNav .accountMsg {
+	float: right;
+}
+
+.topNav .loginMsg li {
+	padding: 0 5px;
+}
+
+.topNav li {
+	float: left;
+	line-height: 25px;
+}
+
+.topNav .accountMsg li {
+	background: url("./images/top_line.png") no-repeat left 58% ;
+}
+
+.topNav .accountMsg li:first-child {
+	background: none;
+}
+
+.topNav .accountMsg li a {
+	display: block;
+	line-height: 25px;
+	padding: 0 10px;
+}
+
+.topNav .accountMsg .arrowC {
+	padding-right: 19px;
+	background: url("./images/top_icon_Arrow9x5.png") no-repeat 90% 55%;
+}
+
+.navMain {
+	background: #e82f5b;
+	width: 100%;
+	height: 60px;
+	margin-bottom: 40px;
+}
+.nav {
+	margin: 0 auto;
+	width: 980px;
+	height: 42px;
+	background: #e82f5b;
+	padding: 9px 0;
+}
+
+.nav .navLog {
+	float: left;
+	width: 168px;
+	height: 42px;
+}
+
+.nav .navLlist {
+	float: left;
+	margin: 0 30px;
+	min-width: 183px;
+	height: 42px;
+}
+
+.nav .navLog li {
+	float: left;
+}
+
+.nav .navList ul {
+	float: right;
+}
+.nav .navList li {
+	float: left;
+}
+
+.nav .navLog li a {
+	display: block;
+	height: 42px;
+}
+
+.nav .navLog li:first-child a {
+	width: 60px;
+	height: 42px;
+	background: url("./images/log_wpw_01.png");
+}
+
+.nav .navLog li:last-child a {
+	padding-left: 13px;
+	width: 95px;
+	line-height: 42px;
+	font-size: 1.8em;
+	font-weight: bold;
+	color: #fff;
+}
+
+.nav .navList li a {
+	display: block;
+	height: 42px;
+	font-size: 1.1em;
+	font-weight: 600;
+	color: #fff;
+	line-height: 40px;
+	padding-left: 30px;
+	padding-bottom: 9px;
+}
+
+.nav .navList li:first-child {
+	background: url("./images/nav_selectedArrow.png") no-repeat 70% 45px;
+}
+
+
+.content {
+	max-width: 980px;
+	min-height: 150px;
+	margin: 0 auto;
+	padding-bottom: 15px;
+}
+
+.leftList {
+	float: left;
+	margin-right: 17px;
+	min-width: 179px;
+	box-shadow: -1px 1px 1px #ddd;
+}
+
+.leftList .listTop {
+	width: 99px;
+	height: 100px;
+	background: #f3f3f3;
+	padding: 30px 40px;
+	border-bottom: 5px solid #ddd;
+}
+
+.leftList .listTop .headBc {
+	position: relative;
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	overflow: hidden;
+	background: #fff;
+}
+.leftList .listTop .headBc img {
+	max-width: 100px;
+	max-height: 100px;
+}
+
+.leftList .listTop .headUpBc {
+	position: absolute;
+	bottom: 0px;
+	width: 100px;
+	height: 30px;
+	background: rgba(0,0,0,0) url("./images/headbg2.png") no-repeat 0 0;
+}
+.leftList .listTop .headUpBc a {
+	line-height: 20px;
+	color: #fff;
+}
+
+.leftList .list {
+	margin: 0 auto;
+	width: 179px;
+	min-height: 150px;
+	background: #f3f3f3;
+	padding-top: 15px;
+	text-align: left;
+	padding-bottom: 19px;
+}
+
+.leftList .list div {
+	min-width: 150px;
+	padding: 6px 0;
+}
+
+.leftList .list ul {
+	margin-left: 40px;
+}
+
+.leftList .list h6 {
+	margin-left: 40px;
+	font-weight: bold;
+	font-size: 15px;
+}
+
+.leftList .list li {
+	margin-top: 8px;
+	font-size: 12px;
+	padding-left: 1px;
+}
+
+.leftList .list a {
+	display: inline-block;
+	padding-left: 25px;
+}
+
+.leftList .list .myDeal h6 {
+	background: url("./images/Usercenter-icon.png") no-repeat -180px 0;
+}
+
+.leftList .list .myShop h6 {
+	background: url("./images/Usercenter-icon.png") no-repeat -180px -657px;
+}
+
+.leftList .list .myMoney h6 {
+	background: url("./images/Usercenter-icon.png") no-repeat -180px -79px;
+}
+
+.leftList .list .cstmService h6 {
+	background: url("./images/Usercenter-icon.png") no-repeat -180px -149px;
+}
+
+.leftList .list h6 a:last-child {
+	width: 14px;
+	height: 14px;
+	background: #e82f5b;
+	border-radius: 5px;
+	color: #fff;
+	font-size: 17px;
+	font-weight: bold;
+	padding-left: 0;
+	text-align: center;
+	line-height: 12px;
+	margin-left: 5px;
+}
+
+.leftList .list .myShop {
+	background: #fff;
+}
+
+.activeBox {
+	float: left;
+	width: 783px;
+	min-height: 200px;
+	text-align: left;
+	font-size: 14px;
+}
+
+.activeBox input,.activeBox select {
+	border: 1px solid #7f9db9;
+}
+
+.activeBox .activeList {
+	float: left;
+	height: 16px;
+	padding: 5px 30px 3px 5px;
+	border: 1px solid #c01941;
+	background: url("./images/plain.gif") no-repeat right 0;
+	color: #c01941;
+}
+
+.activeBox .activeList a {
+	display: inline-block;
+	font-size: 12px;
+	color: #c01941;
+}
+
+.activeBox .activeSure {
+	float: left;
+	margin: 30px;
+	width: 723px;
+}
+.activeBox .activeSure p {
+	font-weight: bold;
+}
+
+.activeBox .activeSure .activeWay a {
+	display: inline-block;
+	margin-right: 27px;
+	width: 121px;
+	height: 150px;
+	border: 1px solid #e0e0e0;
+}
+.activeBox .activeSure .activeWay .sp1 {
+	display: block;
+	width: 121px;
+	height: 121px;
+	text-align: center;
+}
+.activeBox .activeSure .activeWay .sp2 {
+	display: block;
+	width: 121px;
+	height: 29px;
+	line-height: 29px;
+	background: #f0f0f0;
+	text-align: center;
+}
+.activeBox .activeSure .activeWay .spb1 {
+	background: url("./images/active_class1.png") no-repeat 21px 21px;
+}
+.activeBox .activeSure .activeWay .spb2 {
+	background: url("./images/active_class1.png") no-repeat 21px -79px;
+}
+.activeBox .activeSure .activeWay .spb3 {
+	background: url("./images/active_class1.png") no-repeat 21px -179px;
+}
+.activeBox .activeSure .activeWay .spb4 {
+	background: url("./images/active_class1.png") no-repeat 21px -279px;
+}
+
+.activeBox .activeSure .p1 {
+	margin-top: 30px;
+}
+.activeBox .activeSure .p2 {
+	margin-top: 20px;
+}
+
+.activeBox .activeSureSub {
+	text-align: center;
+}
+
+.activeBox .activeSureSub a {
+	display: inline-block;
+	margin-left: 20px;
+	width: 90px;
+	height: 26px;
+	line-height: 26px;
+	text-align: center;
+	color: #fff;
+	border-radius: 5px;
+	background: #dc2652;
+	border: 1px solid #dc2652;
+	box-shadow: 1px 1px 1px #e9e9e9;
+}
+.activeBox .activeSureSub a:first-child {
+	background: none;
+	color: rgba(85,85,85,1);
+}
+.activeBox .activeSureSub a:last-child {
+	background: #e9e9e9;
+	color: rgba(85,85,85,1);
+	border-color: rgba(0,0,0,0);
+}
+
+.footer {
+	margin: 0 auto;
+	width: 980px;
+	border-top: 1px solid #dcdcdc;
+}
+
+.footer .ftAboutlist {
+	margin: 20px 0 10px ;
+}
+
+.footer a {
+	display: inline-block;
+	height: 13px;
+	line-height: 12px;
+	border-left: 1px solid #dcdcdc;
+	padding: 0 15px;
+	color: #999;
+	/*background: url("./images/top_line.png") no-repeat left 50% ;*/
+}
+
+.footer a:first-child {
+	border-left: none;
+}
+
+.footer p {
+	margin: 10px 0;
+	color: #999;
+}

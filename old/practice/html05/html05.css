@@ -1,0 +1,648 @@
+/*初始化*/
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,button,textarea,p,blockquote,th,td,hr{ margin:0; padding:0; }
+body { background:#fff; color:#555; font-size:14px; font-family: Verdana, Arial, Helvetica, sans-serif; }
+td,th,caption { font-size:14px; }
+h1, h2, h3, h4, h5, h6 { font-weight:normal; font-size:100%; }
+address, caption, cite, code, dfn, em, strong, th, var { font-style:normal; font-weight:normal;}
+a { color:#555; text-decoration:none; }
+a:hover { text-decoration:underline; }
+img { border:none; vertical-align: middle;}
+ol,ul,li { list-style:none; }
+input, textarea, select, button { font:14px Verdana,Helvetica,Arial,sans-serif; }
+table { border-collapse:collapse; }
+html {overflow-y: scroll;} 
+
+.clearfix:after {content: "."; display: block; height:0; clear:both; visibility: hidden;}
+.clearfix { *zoom:1; }
+
+/*全部自定义样式*/
+body {
+	background: #fff;
+	text-align: center;/*文字全部居中*/
+}
+
+.container {
+	margin: 0 auto;
+}
+
+.clr {
+	clear: both;
+}
+
+/*头部样式*/
+.header {
+	width: 100%;
+	background: #eee;
+}
+
+.loginbar {
+	background: #acc;
+	height: 20px;
+	padding: 5px 10px;
+	/*position: fixed;
+	top:0;
+	left: 0;*/
+}
+
+.loginbar .addrcity {
+	float: left;
+}
+
+.loginbar .menu1 {
+	float: right;
+	margin-right: 80px;
+}
+
+.loginbar li {
+	float: left;
+}
+
+.menu1 a{
+	margin: 0 5px;
+}
+
+.searchbar {
+	background: #e43;
+	height: 100px;
+	margin: 5px auto;
+}
+
+/*导航样式开始*/
+	.nav {
+		background: #eee;
+		height: 50px;
+		width: 1211px;
+		margin: 0 auto;
+	}
+
+	.nav li {
+		float: left;
+	}
+
+	.nav a {
+		text-decoration: none;
+		line-height: 50px;
+	}
+
+	.nav>ul:first-child {
+		float: left;
+		background: #b1191a;
+	}
+
+	.nav>ul:first-child a{
+		font-size: 16px;
+		color: #fff;
+		padding: 15px 104px 15px 10px;
+	}
+
+	.nav>ul:first-child a:hover {
+		background: #c1151a;
+	}
+
+	.nav-ul a{
+		font-size: 15px;
+		padding: 15px 20px;
+	}
+
+	.nav-ul a:hover {
+		background: #03b1a1;
+	}
+/*导航样式结束*/
+
+.header:after {
+	content: "";
+	clear: both;
+}
+
+hr {
+	background: black;
+	height: 3px;
+}
+
+/*主体内容样式开始*/
+.main {
+	width: 1211px;
+	background: #fff;
+	margin: 0 auto;
+}
+
+/*.main:after {
+	content: "";
+	clear: both;
+}*/
+
+
+/*主体内容上一部样式开始*/
+
+.newscol .lsidebar {
+	float: left;
+	width: 210px;
+	height: 466px;
+	background: #c1151a;
+}
+
+.newscol .lsidebar li {
+	text-align: left;
+	margin: 0 2px;
+}
+
+.newscol .lsidebar a {
+	display: block;
+	font-size: 15px;
+	color: #fff;
+	width: ;
+	height: 27px;
+	padding: 2px;
+	line-height: 27px;
+	text-indent: 1em;
+}
+
+.newscol .lsidebar span {
+	float: right;
+	font-size: 10px;
+}
+
+.newscol .lsidebar a:hover {
+	color: #aca;
+	background: white;
+}
+
+.newscol .sub-column {
+	float: left;
+	width: ;
+	height: 454px;
+	background: #e1d;
+	margin: 12px 10px;
+}
+
+.newscol .rsidebar {
+	float: right;
+	width:  248px;
+	height: 466px;
+}
+
+.news {
+	height: 200px;
+	width: 246px;
+	border: 1px solid #ccc;
+	border-bottom: none;
+	margin-top: 10px;
+}
+
+.news-title {
+	width: ;
+	height: 43px;
+	border-top: none;
+	border-bottom: 1px dotted #ccc;
+}
+
+.rsidebar h1 {
+	line-height: 43px;
+	font-size: 15px;
+	margin: 0 15px;
+	text-align: left;
+}
+
+.rsidebar h1 a {
+	font-size: 13px;
+	float: right;
+}
+
+.news-summary {
+	padding-top: 13px;
+}
+
+.news-summary li {
+	width: ;
+	height: 27px;
+	text-align: left;
+	margin-left: 10px;
+}
+
+.news-summary span {
+	font-weight: bold;
+}
+
+.rsidebar .shop {
+	border-top: 1px dashed #ccc;
+}
+
+.newscol .rsidebar table td {
+	width: 62px;
+	height: 70px;
+	border: 1px solid #aaa;
+}
+/*主体内容上一部样式结束*/
+
+/*主体内容中一部样式开始*/
+.bannerbar .fir-bar,.sec-bar,.thi-bar {
+	margin-top: 15px;
+	width: 1211px;
+}
+
+.bannerbar .fir-bar {
+	height: 153px;
+}
+
+.fir-bar a {
+	float: left;
+	margin-right: 1px;
+}
+
+.ck a{
+	display: inline-block;
+	float: left;
+	width: 210px;
+	height: 152px;
+	margin-right: -3px;
+	background: url(homebg.png) no-repeat -217px -137px;
+}
+
+.bannerbar .sec-bar {
+	height: 270px;
+}
+
+.word-dec h2 {
+	font-size: 18px;
+	float: left;
+	padding-right: 233px;
+	margin: 5px 0px;
+	background: url(homebg.png) no-repeat 80px -95px;
+}
+
+.word-dec a {
+	float: right;
+	line-height: 25px;
+	padding-right: 40px;
+	background: url(homebg.png) no-repeat -305px -1px;
+}
+
+.news-banner {
+	width: 1211px;
+	border: 1px solid #ccc;
+	padding-left: 0 15px;
+}
+
+.spt {
+	width: 201px;
+	float: left;
+	color: #aa0;
+	padding-top: 25px;
+	margin-bottom: 10px;
+}
+
+.dec {
+	height: 36px;
+	padding: 0 36px;
+}
+
+.dec,.price {
+	border-left: 1px solid #ccc;
+}
+
+.news-banner .sptcl{
+	border-left: none;
+}
+
+.mdtsgbd {
+	width: 1211px;
+	border-left: 1px solid #ccc;
+	border-top: 1px solid #ccc;
+}
+
+.thi-bar h2 {
+	font-size: 18px;
+	text-align: left;
+	margin: 5px;
+}
+
+.mdtsg01,.mdtsg02,.mdtsgt {
+	float: left;
+}
+
+.mdtsg01 {
+	width: 202px;
+}
+
+.mdtsgt {
+	width: 201px;
+}
+
+.tsgsm {
+	display: inline-block;
+	float: left;
+	border-right: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+	position: relative;
+}
+
+.tsg-w1 {
+	width: 201px;
+	height: 200px;
+}
+
+.tt {
+	font-size: 16px;
+	width: 100%;
+	height: 20px;
+	position: absolute;
+	top: 20px;
+}
+
+.tp {
+	width: 100%;
+	height: 18px;
+	position: absolute;
+	top: 47px;
+}
+
+.thi-bar img {
+	vertical-align: middle;
+}
+
+.mdtsg02 {
+	width: 404px;
+	background: #f7f7f7 none repeat;
+}
+
+.tsg-w2 {
+	width: 403px;
+	height: 200px;
+}
+
+.tsg-w3 {
+	width: 200px;
+	height: 200px;
+}
+
+.tsg-w4 {
+	width: 100px;
+	height: 39px;
+}
+
+.tsgbc {
+	padding-bottom: 1px;
+}
+
+.mdtsgcol ul {
+	font-size: 12px;
+	padding-top: 30px;
+}
+
+.mdtsgcol li {
+	float: left;
+	margin-left: 15px;
+	line-height: 25px;
+}
+.mdtsgcol span {
+	color: red;
+	font-weight: bolder;
+}
+
+/*主体内容中一部样式结束*/
+
+/*主体内容中二部样式开始*/
+.maincol>div {
+	margin-top: 12px;
+}
+
+.tit {
+	height: 34px;
+	position: relative;
+}
+
+.tit>h1 {
+	float: left;
+	font-size: 20px;
+	height: 25px;
+	padding-left: 40px;
+	background: url(sprite_floor.png) no-repeat 0 0 ;
+}
+
+.tit i {
+	font-size: 14px;
+	color: #fff;
+	height: 25px;
+	width: 21px;
+	position: absolute;
+	top: 5px;
+	left: 0px;
+}
+
+.tit ul {
+	float: right;
+	font-size: 13px;
+	border: 1px solid #ccc;
+	border-bottom: none;
+}
+
+.tit li {
+	display: inline-block;
+	float: left;
+	height: 34px;
+	position: relative;
+}
+
+.tit a {
+	float: left;
+	height: 34px;
+	line-height: 34px;
+	padding: 0 16px;
+}
+
+.tit a:hover {
+	position: relative;
+	top: -1px;
+	left: -1px;
+	color: red;
+	height: 33px;
+	line-height: 30px;
+	padding: -2px 15px 0;
+	border-top: 3px solid red;
+	border-left: 1px solid red;
+	border-right: 1px solid red;
+}
+
+.tit span {
+	background: #ccc none repeat scroll 0 0;
+	height: 14px;
+	position: absolute;
+	top: 10px;
+	width: 1px;
+}
+
+.tit-banner {
+	position: relative;
+	border-top: 1px solid red;
+}
+
+.tit-banner-l {
+	width: 210px;
+	height: 475px;
+	float: left;
+	position: relative;
+}
+
+.banner-lf img {
+	max-height: 474px;
+}
+
+.wm {
+	position: relative;
+	height: 91px;
+	margin-top: -236px;	
+	padding-bottom: 10px;
+	padding-left: 10px;
+	background: rgba(255, 255, 255, 0.5);
+}
+
+.wm li {
+	width: 98px;
+	height: 26px;
+	line-height: 26px;
+	padding: 10px 0;
+	float: left;
+}
+
+.wm a {
+	float: left;
+}
+
+.wm i {
+	width: 26px;
+	height: 26px;
+	margin-right: 5px;
+	float: left;
+	background: url(cosicon.png) no-repeat  0 0;
+}
+
+.wn {
+	position: relative;
+	height: 127px;
+	line-height: 24px;
+	padding: 8px 10px 0;
+	background: rgba(255, 255,255, 0.7);
+}
+
+.wn li {
+	width: 180px;
+	height: 24px;
+	padding: 0 10px;
+	text-align: left;
+}
+
+.wn a {
+	margin-right: 12px;
+}
+
+.wn small {
+	font-size: 13px;
+}
+
+.wn small a {
+	color: #a1a1a1;
+}
+
+.tit-hotpt-l {
+	width: 339px;
+	float: left;
+}
+
+.yght {
+	width:100%;
+	height: 296px;
+}
+
+.xfsht {
+	width: 100%;
+	height: 176px;
+	border-bottom: 1px dashed #ccc;
+	border-top: 1px dashed #ccc;
+}
+
+.tit-hotpt-r {
+	float: left;
+	width: 660px;
+	border-left: 1px solid #ccc;
+}
+
+.hotpt-r-up {
+	height: 297px;
+}
+
+.tit-hotpt-r li {
+	float: left;
+	border-right: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+}
+
+.hotpt-r-up img {
+	max-width: 219px;
+	max-height: 296px;
+}
+
+.hotpt-r-up li {
+	width: 219px;
+	height: 296px;
+	line-height: 292px;
+}
+
+.hotpt-r-down {
+	height: 177px;
+}
+
+.hotpt-r-down img {
+	width: 219px;
+	height: 176px;
+}
+
+
+/*主体内容中二部样式结束*/
+
+/*主体内容下一部样式开始*/
+/*主体内容下一部样式结束*/
+
+/*主体内容样式结束*/
+
+/*底部样式开始*/
+
+.slgen {
+	margin: 20px auto;
+	background: #e3e3e3;
+}
+
+.slgen span {
+	display: line-block;
+	max-width: 100px;
+	max-height: 75px;
+	font-size: 20px;
+	line-height: 100px;
+	margin: 10px 50px;
+}
+
+.service {
+	max-height: 150px;
+	margin: 0 auto;
+	padding-bottom: 30px;
+	width: 1211px;
+	border-bottom: 1px solid #ccc;
+}
+
+.service h2 {
+	font-size: 16px;
+	font-weight: bold;
+	margin-bottom: 8px;
+}
+
+.service ul {
+	display: inline-block;
+	max-width: 100px;
+	max-height: 80px;
+	line-height: 20px;
+	margin: 0 50px;
+}
+
+.copyright {
+	margin: 20px auto;
+}
+/*底部样式结束*/

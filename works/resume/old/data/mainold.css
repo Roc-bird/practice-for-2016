@@ -1,0 +1,408 @@
+/* 最大容器属性设置 */
+.container {
+	position: relative;
+	max-width: 2796px;
+	margin: 0 auto;
+	background: #e4e4e4;
+}
+
+.header {
+	height: 120px;
+}
+
+.content {
+	position: relative;
+	width: 1024px;
+	margin: 0 auto;
+	background: rgb(249,249,249);
+}
+
+.contact-information-box {
+	position: relative;
+	float: left;
+	width: 300px;
+	background: rgb(51,51,51);
+	color: rgb(255,255,255);
+}
+
+.head-name-box {
+	width: 300px;
+	height: 120px;
+}
+
+.head-box {
+	float: left;
+	width: 90px;
+	height: 90px;
+	margin-top: 15px;
+	margin-left: 35px;
+	border-radius: 45px;
+	background: rgb(245,245,245);
+	overflow: hidden;
+}
+
+.head-box:hover {
+	margin-top: 13px;
+	margin-left: 33px;
+	border: 2px solid #e1e1e1;
+}
+
+.head-box img {
+	max-width: 90px;
+	max-height: 90px;
+}
+
+.name-my {
+	display: block;
+	float: right;
+	width: 173px;
+	height: 118px;
+	margin: 0 auto;
+	color: #fff;
+	font-size: 40px;
+	line-height: 3;
+	font-family: "SimHei";
+	font-weight: 600;
+	letter-spacing: 15px;
+	text-indent: 15px;
+	text-align: center;
+	/*border-bottom: 2px solid #ccc;*/
+}
+
+.head-name-line {
+	float: right;
+	width: 220px;
+	height: 2px;
+	background: #ccc;
+}
+
+.quotes-my {
+	width: 270px;
+	height: 60px;
+	margin: 30px 15px 10px;
+	font-size: 18px;
+	font-family: "STXingkai";
+	line-height: 1.6;
+}
+
+.contact-way-box {
+	width: 300px;
+	height: 420px;
+	font-weight: 600;
+}
+
+.contact-title {
+	width: 275px;
+	height: 60px;
+	margin: 0;
+	margin-left: 25px;
+	font-size: 24px;
+	line-height: 2.5;
+}
+
+.contact-detail {
+	width: 255px;
+	/*height: 360px;*/
+	margin: 0;
+	margin-left: 45px;
+}
+
+.contact-mobile,
+.contact-email,
+.contact-wechat,
+.contact-qq {
+	display: block;
+	width: 215px;
+	height: 60px;
+	padding-left: 40px;
+	font-size: 18px;
+	font-family: "Microsoft YaHei";
+	line-height: 3.3;
+}
+
+.contact-mobile {
+	background: url("../images/mobile.png") no-repeat left;
+}
+
+.contact-email {
+	background: url("../images/email.png") no-repeat left;
+}
+
+.contact-qq {
+	background: url("../images/qqicon.png") no-repeat left;
+}
+
+.contact-wechat {
+	width: 105px;
+	margin: 0 100px 0 10px;
+	text-align: center;
+	font-size: 14px;
+}
+
+.contact-wx-img {
+	width: 105px;
+	height: 105px;
+	margin: 15px 100px 0 50px;
+	vertical-align: top;
+}
+
+/* 右侧展示主体 */
+.modular-box {
+	float: right;
+	width: 722px;
+	height: 638px;
+	border: 1px solid #ccc;
+}
+
+.modular-main {
+	width: 722px;
+	height: 638px;
+}
+
+/* 展示页标题 */
+.modular-m-header {
+	width: 722px;
+	height: 75px;
+	border-bottom: 3px solid #ccc;
+	text-align: center;
+}
+
+.modular-m-h-title {
+	font-size: 30px;
+	line-height: 2.5;
+}
+
+/* 展示页主体 */
+.modular-m-content {
+	width: 722px;
+	/*height: 530px;*/
+}
+
+/* —‖第1页阐述观点样式 */
+.modular-e-c-dec {
+	display: block;
+	width: 222px;
+	height: 130px;
+	margin: 200px 250px;
+	font-size: 16px;
+	line-height: 4;
+}
+
+/* —‖第2页基本信息样式 */
+.m-pim-box {
+	width: 422px;
+	height: 326px;
+	margin: 100px auto;
+	border-top: 2px solid #ccc;
+	border-bottom: 2px solid #ccc;
+}
+
+.m-pim-font {
+	display: block;
+	float: left;
+	width: 210px;
+	height: 158px;
+	text-align: center;
+	font-size: 30px;
+	font-family: "Microsoft YaHei";
+	/*text-shadow: 0 0 2px #000;*/
+	line-height: 5.26;
+}
+
+.m-pim-slash {
+	float: left;
+	width: 2px;
+	height: 158px;
+	background: #ccc;
+	transform: skewX(-30deg);
+}
+
+.m-pim-lines {
+	float: left;
+	width: 248px;
+	height: 10px;
+	margin: 0 87px;
+}
+
+.m-pim-line {
+	float: left;
+	width: 71px;
+	height: 0;
+	margin: 4px 0;
+	border-top: 2px dashed #ccc;
+}
+
+.m-pim-s-circle {
+	float: left;
+	width: 8px;
+	height: 8px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	background: #fff;
+}
+
+.m-pim-c-apart {
+	float: left;
+	width: 86px;
+	height: 10px;
+}
+
+/* —‖第3页技能页样式 */
+.m-skill-box {
+	position: relative;
+	width: 600px;
+	height: 500px;
+	margin: 15px auto;
+	overflow: hidden;
+}
+
+.m-skill-html,
+.m-skill-css,
+.m-skill-js,
+.m-skill-ps {
+	/*float: left;*/
+	/*width: 298px;*/
+	height: 248px;
+	margin: 1px;
+	overflow: hidden;
+	/*background: #666999;*/
+}
+
+.m-skill-html-anim,
+.m-skill-css-anim {
+	position: relative;
+
+}
+
+.m-skill-html:hover,
+.m-skill-css:hover,
+.m-skill-js:hover,
+.m-skill-ps:hover {
+	/*margin: 0;
+	border: 1px solid #aaa;*/
+	/*border-right: 1px solid transparent;*/
+	box-shadow: 0 0 5px #aaa;
+	cursor: pointer;
+}
+
+.m-skill-border {
+	margin: 0;
+	border: 1px solid #ccc;
+	/*border-right: transparent;*/
+}
+
+.m-skill-html-dec,
+.m-skill-css-dec,
+.m-skill-js-dec,
+.m-skill-ps-dec {
+	position: relative;
+	display: none;
+	float: left;
+	width: 298px;
+	height: 248px;
+	/*border: 1px solid #ccc;*/
+	/*border-left: transparent;*/
+	background: #f4ded3;
+	overflow: hidden;
+}
+
+.m-skill-dec {
+	width: 299px;
+}
+
+.m-s-h-det,
+.m-s-c-det,
+.m-s-j-det,
+.m-s-p-det {
+	display: block;
+	margin: 15px 0 0 15px;
+}
+
+.m-skill-circle {
+	position: relative;
+	float: left;
+	width: 148px;
+	height: 148px;
+	margin: 49px 74px;
+	border: 1px solid #999;
+	border-radius: 75px;
+	background: #8df41c;
+	/*text-align: center;*/
+	overflow: hidden;
+}
+
+.m-skill-ccr {
+	margin: 49px 75px 49px 74px;
+}
+
+.m-skill-ccl {
+	margin: 49px 74px 49px 75px;
+}
+
+/*.m-skill-circle:hover {
+	transform: scale(1.05,1.05);
+}*/
+
+.m-skill-icon {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	max-width: 57px;
+	max-height: 78px;
+	margin: 0;
+	transform: translate(-50%,-50%);
+	/*margin-left: -28.5px;
+	margin-top: -39px;*/
+	/*line-height: 78px;
+	vertical-align: middle;*/
+}
+
+/* 展示页底部注释 */
+.modular-m-footer {
+	width: 722px;
+	height: 30px;
+}
+
+.modular-m-f-line {
+	width: 600px;
+	height: 2px;
+	background: #ccc;
+}
+
+.modular-m-f-tips {
+	width: 722px;
+	height: 28px;
+}
+
+.modular-m-f-icon {
+	max-width: 20px;
+	max-height: 20px;
+	margin: 4px 10px 4px 20px;
+	vertical-align: top;
+}
+
+.modular-m-f-notes {
+	display: inline-block;
+	float: right;
+	width: 672px;
+	height: 28px;
+	/*padding-left: 30px;
+	background: url("../images/f-notes.png") no-repeat left;*/
+	font-size: 10px;
+	font-family: "Microsoft YaHei";
+	line-height: 2.5;
+}
+
+
+/* 不显示样式 */
+.dis-none {
+	display: none;
+}
+
+.float-l {
+	float: left;
+}
+
+.float-r {
+	float: right;
+}

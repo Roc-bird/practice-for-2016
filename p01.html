@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>ajax&&xml</title>
+</head>
+<body>
+	<form action="#">
+		<input id="nam" value="点击" type="button" onclick="s();" /><br/><pre id="disp"></pre>
+	</form>
+</body>
+<script>
+	function s(str){
+		var xmthttp;
+		if (window.XMLHttpRequest) {
+			xmlhttp = new XMLHttpRequest();
+		} else {
+			xmlhttp = new ActiveXObject("Microsoft.XMLHTTP");
+		}
+
+		xmlhttp.onreadystatechange = function () {
+			if (xmlhttp.readyState == 4 && xmlhttp.status == 200) {
+				//document.getElementById("nam").innerHTML = xmlhttp.responseXML;
+				var xmlDoc = xmlhttp.responseXML;
+				var text = "";
+				var x,y,z;
+				x = xmlDoc.getElementsByTagName("province");
+				
+				for(var i = 0, length1 = x.length; i < length1; i++){
+					text = text + x[i].getElementsByTagName("name")[0].childNodes[0].nodeValue + "<br/>";
+					y = x[i].getElementsByTagName("city");
+					for(var j = 0, length2 = y.length; j < length2; j++){
+						text = text + "&nbsp;&nbsp;" + y[j].getElementsByTagName("name")[0].childNodes[0].nodeValue + "<br/>";
+						z = y[j].getElementsByTagName("area");
+						for(var k = 0, length3 = z.length; k < length3; k++){
+							text = text + "&nbsp;&nbsp;&nbsp;&nbsp;" + z[k].getElementsByTagName("name")[0].childNodes[0].nodeValue + "<br/>";
+							var c = z[k].getElementsByTagName("street");
+							for(var h = 0, length4 = c.length; h < length4; h++){
+								text = text + "&#9;" + c[h].childNodes[0].nodeValue + "<br/>";
+							}
+						}
+					}
+				}
+		//console.log('abc');
+				document.getElementById("disp").innerHTML = text;
+			}
+		}
+
+		xmlhttp.open("GET","./demo.xml",true);
+		xmlhttp.send();
+	}
+
+</script>
+</html>

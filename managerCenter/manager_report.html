@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="initialization.css">
+	<link rel="stylesheet" href="manager_report.css">
+	<script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.8.0.js"></script>
+	<title>举报管理</title>
+</head>
+<body>
+	<div class="container clearfix">
+		<div class="topNav">
+			<div class="loginMsg">
+				<ul>
+					<li><a href="javascript:void(0);">收藏工联海淘</a></li>
+					<li><a class="fntClor" href="javascript:void(0);">您好，ht2154415441</a></li>
+					<li><a href="javascript:void(0);">退出</a></li>
+				</ul>
+			</div>
+			<div class="accountMsg clearfix">
+				<ul>
+					<li><a href="javascript:void(0);">商家入驻</a></li>
+					<li><a class="fntClor arrowC" href="javascript:void(0);">我的订单</a></li>
+					<li><a class="arrowC" href="javascript:void(0);">我的海淘</a></li>
+					<li><a href="javascript:void(0);">购物车</a></li>
+					<li><a class="arrowC" href="javascript:void(0);">手机版</a></li>
+					<li><a class="arrowC" href="javascript:void(0);">帮助中心</a></li>
+				</ul>
+			</div>
+		</div>
+		<div class="navMain clearfix">
+		<div class="nav clearfix">
+				<div class="navLog clearfix">
+					<ul>
+						<li><a href="javascript:void(0);"></a></li>
+						<li><a href="javascript:void(0);">我的海淘</a></li>
+					</ul>
+				</div>
+				<div class="navList clearfix">
+					<ul>
+						<li><a href="javascript:void(0);">首页</a></li>
+						<li><a class="acntManagement" href="javascript:void(0);">账户管理<span></span></a></li>
+						<li><a href="javascript:void(0);">消息</a></li>
+					</ul>
+				</div>
+		</div>
+		</div>
+		<div class="content clearfix">
+			<div class="leftList clearfix">
+				<p class="listTop"></p>
+				<div class="list">
+					<div class="clearfix">
+						<h6><a class="shopCar" href="javascript:void(0);">我的购物车</a></h6>
+						<h6><a class="myDeal" href="javascript:void(0);">我的交易</a></h6>
+						<ul>
+							<li><a name="orderM" href="javascript:;">订单管理</a></li>
+							<li><a name="collectionM" href="javascript:;">我的收藏</a></li>
+							<li><a name="reviewsM" href="javascript:;">评价管理</a></li>
+						</ul>
+						<h6><a class="myMoney" href="javascript:;">我的资产</a></h6>
+						<ul>
+							<li><a name="balanceM" href="javascript:;">账户余额</a></li>
+							<li><a name="rechargeM" href="javascript:;">余额充值</a></li>
+							<li><a name="accountDetailM" href="javascript:;">账务明细</a></li>
+							<li><a name="discountM" href="javascript:;">我的优惠</a></li>
+						</ul>
+						<h6><a class="cstmService" href="javascript:;">客户服务</a></h6>
+						<ul>
+							<li><a name="reportM" href="javascript:;">举报管理</a></li>
+							<li><a name="complaintM" href="javascript:;">投诉管理</a></li>
+							<li><a name="consultReplyM" href="javascript:;">咨询回复</a></li>
+						</ul>
+					</div>
+					<p class="listBottom"></p>
+				</div>
+			</div>
+			<div class="rightMain clearfix">
+				<h6 class="clearfix"><li><a href="javascript:void(0);">我要举报</a></li></h6>
+				<div class="contR">
+					<form action="javascript:void(0);" method="post" onsubmit="return false">
+						<div>
+							<p><label>被举报人：</label><a target="_blank" href="javascript:void(0);">旺才</a></p>
+							<p><label>相关商品：</label><a target="_blank" href="javascript:void(0);">美味骨头</a></p>
+							<div class="reportType clearfix">
+								<label>举报类型：</label>
+								<div>
+									<label><input type="radio" name="reportTypes" value="1" />违规商品</label>
+									<label><input type="radio" name="reportTypes" value="2" />钓鱼网站</label>
+									<label><input type="radio" name="reportTypes" value="3" />举报会员</label>
+								</div>
+							</div>
+							<p class="fx"><label><span class="fntClor">*</span>描述：</label><textarea name="descriptionRM" id="" cols="30" rows="10"></textarea><label class="fntClor">&nbsp;*描述不能为空</label></p>
+							<p class="fx"><label><span class="fntClor">*</span>原因：</label><textarea name="descriptionRM" id="" cols="30" rows="10"></textarea><label class="fntClor">&nbsp;*原因不能为空</label></p>
+							<div>
+								<p class="fx fileUpReport"><label>上传凭证：</label><a href="javascript:void(0);">添加图片<input id="fileUpControlReport" type="file" accept="image/gif,image/jgp,image/jpeg,image/png"/></a><span>最多3张图片，每张图限2M,支持GIF,JPG,JPEG,PNG格式</span></p>
+								<div class="upImageReport clearfix">
+									<div class="hidv">
+										<a href="javascript:void(0);"><img src="" alt="加载失败"></a><a href="javascript:void(0);">删除</a>
+									</div>
+									<input id="" type="hidden" value="" name="" />
+									<div class="hidv">
+										<a href="javascript:void(0);"><img src="" alt="加载失败"></a><a href="javascript:void(0);">删除</a>
+									</div>
+									<input id="" type="hidden" value="" name="" />
+									<div class="hidv">
+										<a href="javascript:void(0);"><img src="" alt="加载失败"></a><a href="javascript:void(0);">删除</a>
+									</div>
+									<input id="" type="hidden" value="" name="" />
+								</div>
+								<p><a class="subReport" href="javascript:void(0);">提交</a></p>
+							</div>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script src="manager_share.js"></script>
+</body>
+</html>

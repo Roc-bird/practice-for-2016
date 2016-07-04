@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<!-- meta使用viewport以确保页面可自由缩放 -->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<!-- 引入 jQuery Mobile 样式 -->
+	<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+
+	<!-- 引入 jQuery 库 -->
+	<script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+
+	<!-- 引入 jQuery Mobile 库 -->
+	<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+
+	<!-- 引入 外部初始化 样式 -->
+	<link rel="stylesheet" href="css/Normalize.css">
+
+	<!-- 引入 自定义 样式 -->
+	<link rel="stylesheet" href="css/main.css">
+
+	<!-- 引入 自定义JS 脚本-->
+	<script defer src="js/main.js"></script>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<div data-role="page">
+		<!-- 页面顶部工具栏 -->
+		<div data-role="header" data-position="fixed" data-fullscreen="true" data-theme="b">
+			<a href="#myPanel" class="ui-btn ui-corner-all ui-icon-bars ui-btn-icon-left ui-btn-icon-notext"></a>
+			<h1>艾泽拉斯档案馆</h1>
+			<a href="javascript:void(0);" class="ui-btn ui-corner-all ui-icon-search ui-btn-icon-left ui-btn-icon-notext"></a>
+		</div>
+		<!-- 页面内容显示区 -->
+		<div data-role="main" class="ui-content">
+			<p>&nbsp;</p>
+			<div data-role="collapsible-set" data-input="#myFilter" data-filter="true" >
+				<!-- 折叠集合 -->
+				<h2>装备类型：</h2>
+				<div data-role="collapsible" data-iconpos="right">
+					<h1>板甲</h1>
+					<p>一种物理防御值很高的护甲。工工工工工工工工工工工工工工工工工工工工工工工工工</p>
+					<p>(防御力：★★★★★)</p>
+				</div>
+				<div data-role="collapsible" data-iconpos="right">
+					<h1>锁甲</h1>
+					<p>一种物理防御值比较高的护甲。</p>
+					<p>(防御力：★★★☆)</p>
+				</div>
+				<div data-role="collapsible" data-iconpos="right">
+					<h1>皮甲</h1>
+					<p>一种物理防御值一般的护甲。</p>
+					<p>(防御力：★★)</p>
+				</div>
+				<div data-role="collapsible" data-iconpos="right">
+					<h1>布甲</h1>
+					<p>一种物理防御值比较低的护甲。</p>
+					<p>(防御力：★)</p>
+				</div>
+			</div>
+			<p>联盟与部落在这里持续战斗了几百年，中间也曾一起携手抵抗过强大的敌人。</p>
+			<p>联盟与部落在这里持续战斗了几百年，中间也曾一起携手抵抗过强大的敌人。</p>
+			<a href="#pagetips" data-rel="popup">更多剧情</a>
+			<p>&nbsp;</p>
+			<p>&nbsp;</p>
+		</div>
+
+		<!-- 页面底部工具栏 -->
+		<div data-role="footer" data-position="fixed" data-fullscreen="true" data-theme="b">
+			<div data-role="navbar">
+				<ul>
+					<li><a href="#pageone" data-icon="home">首页</a></li>
+					<li><a href="#" data-icon="grid" class="ui-btn-active ui-state-persist">分类</a></li>
+					<li><a href="javascript:void(0);" data-icon="eye">发现</a></li>
+					<li><a href="javascript:void(0);" data-icon="shop">编年史</a></li>
+					<li><a href="javascript:void(0);" data-icon="user">要塞</a></li>
+				</ul>
+			</div>
+		</div>
+		<!-- 弹出框 -->
+		<div data-role="popup" data-dialog="true" data-position-to="window" data-overlay-theme="b">
+			<div data-role="header">
+				<h1>敬请期待</h1>
+				<a href="javascript:void(0);" data-rel="back" class="ui-btn ui-corner-all ui-icon-delete ui-btn-icon-notext ui-btn-right"></a>
+			</div>
+			<div data-role="main" class="ui-content">
+				<p>更多内容，更多图鉴!</p><img src="images/test.jpg" alt="test" style="width: 100px;">
+			</div>
+		</div>
+	</div>
+</body>
+</html>

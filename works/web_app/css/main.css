@@ -1,0 +1,48 @@
+div[data-role="header"],
+div[data-role="footer"] {
+	opacity: 1;
+}
+
+/*.ui-bar-f {
+	color: #3434ed;
+	background-color: green;
+}
+
+.ui-body-f {
+	font-weight: bold;
+	color: #222;
+	background-color: yellow;
+}
+
+.ui-page-theme-f {
+	font-weight: bold;
+	background-color: #f1f1f1;
+}*/
+
+.ui-icon-occupation:after {
+	background: url("../images/occupation.png") no-repeat 3px 3px;
+}
+
+.ui-icon-major:after {
+	background: url("../images/major.png") no-repeat 3px 3px;
+}
+
+.ui-icon-alliance:after {
+	background: url("../images/alliance.png") no-repeat 3px 3px;
+}
+
+.ui-icon-equipment:after {
+	background: url("../images/equipment.png") no-repeat 3px 3px;
+}
+
+.ui-icon-race:after {
+	background: url("../images/race.jpg") no-repeat 3px 3px;
+}
+
+.ui-grid-c {
+	text-align: center;
+}
+
+/*#pagetwo .navbars .ui-btn{
+	padding: 1em;
+}*/

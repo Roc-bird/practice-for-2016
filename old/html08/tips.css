@@ -1,0 +1,22 @@
+.tipsPage {
+	width: 1140px;
+	min-height: 700px;
+	margin: 0 auto;
+	background: rgba(255,229,145,0.08);
+	text-align: center;
+}
+
+.tipsPage h4 {
+	margin: 0 auto;
+	padding-top: 50px;
+	padding-bottom: 5px;
+	width: 890px;
+	font-size: 20px;
+	border-bottom: 1px solid #aaa;
+}
+
+.tipsPage p {
+	margin: 20px auto;
+	margin-top: 50px;
+	width: 800px;
+}
